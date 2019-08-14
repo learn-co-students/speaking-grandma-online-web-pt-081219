@@ -14,13 +14,15 @@
 
 
 def speak_to_grandma(speak)
-  if speak == speak.downcase
-    return 'HUH?! SPEAK UP, SONNY!'
+  if 
+    speak == "I LOVE YOU GRANDMA!"
+   return 'I LOVE YOU TO PUMPKIN'
+   
   elsif
     speak == speak.upcase
     return 'NO, NOT SINCE 1938!'
-  elsif
-   speak == "I LOVE YOU GRANDMA!"
-   return 'I LOVE YOU TO PUMPKIN'
+  else
+    speak == speak.downcase
+    return 'HUH?! SPEAK UP, SONNY!'
   end
 end 
